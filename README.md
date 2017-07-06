@@ -31,14 +31,22 @@ cnpm install -g vue-cli
 
 vue给我最大的特点就是数据绑定和组件化，使用起来确实很方便，而且功能强大。
 建议先把文档上给的小demo都跟着敲一遍，然后看看文档，入门还是可以的。我是为了更快的入门，所以打算着手做一个大点的demo，不然面试会被刷啊。poor me。
-这里推荐一篇写的不错的，可以参考参考。[Vue 学习笔记](http://www.jianshu.com/p/06be98001dc3),因为这个demo基于vue2.0+vuex+localStorage+sass+webpack，所以需要了解webpack的一些知识，这里面总结的挺好的。我也在看，后面看完了我再写笔记吧。
+
+--------
+
+这里推荐一篇写的不错的，可以参考参考。
+
+- [Vue 学习笔记](http://www.jianshu.com/p/06be98001dc3)
+
+因为这个demo基于vue2.0+vuex+localStorage+sass+webpack，所以需要了解webpack的一些知识，这里面总结的挺好的。我也在看，后面看完了我再写笔记吧。
 废话不多说了，我要开始撸代码了。
 先了解一下vuex。这篇[Vuex 入门介绍](http://www.jianshu.com/p/490e7726fe67)挺好的。
 相关参考：
-[Vuex 通俗版教程](http://www.jianshu.com/p/caff7b8ab2cf)
-[快速上手vuex](http://www.jianshu.com/p/04ebf09e72a1)
-[Vue 2.0 起步(3) 数据流vuex和LocalStorage实例 - 微信公众号RSS](http://www.jianshu.com/p/fb758398268a)
-[vuex入门实例2](http://www.jianshu.com/p/2b19a2b36d20)
-[vue全家桶之vuex](http://www.jianshu.com/p/ee77747f9dd8)
+
+- [Vuex 通俗版教程](http://www.jianshu.com/p/caff7b8ab2cf)
+- [快速上手vuex](http://www.jianshu.com/p/04ebf09e72a1)
+- [Vue 2.0 起步(3) 数据流vuex和LocalStorage实例 - 微信公众号RSS](http://www.jianshu.com/p/fb758398268a)
+- [vuex入门实例2](http://www.jianshu.com/p/2b19a2b36d20)
+- [vue全家桶之vuex](http://www.jianshu.com/p/ee77747f9dd8)
 ####为什么要用vuex？
 vuex是类似redux的状态管理器，用来管理Vue的所有组件状态，一般来说vuex适合中型或者大型的单页应用（SPA），会出现多个视图组件依赖同一个状态，来自不同视图的行为需要变更同一个状态。但是这个记事本中有个修改主题，切换状态的地方，所以使用vuex更加方便。利用vuex进行状态管理，把所有事件和状态存储在store对象中，在组件中通过计算属性获得事件，因此就有了实时性。使用vuex管理主题状态，并进行模块化管理，用localStorage永久存储选中的主题颜色。
