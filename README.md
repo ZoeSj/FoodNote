@@ -26,6 +26,9 @@ cnpm install -g vue-cli
 
 这里说下啊，如果不想用eslint来规范代码的话，可以选择no，不然后面没配置好容易报一些格式上的错误。
 ![](http://upload-images.jianshu.io/upload_images/2645110-770d0f432f77b684.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+-------
+
 vue给我最大的特点就是数据绑定和组件化，使用起来确实很方便，而且功能强大。
 建议先把文档上给的小demo都跟着敲一遍，然后看看文档，入门还是可以的。我是为了更快的入门，所以打算着手做一个大点的demo，不然面试会被刷啊。poor me。
 这里推荐一篇写的不错的，可以参考参考。[Vue 学习笔记](http://www.jianshu.com/p/06be98001dc3),因为这个demo基于vue2.0+vuex+localStorage+sass+webpack，所以需要了解webpack的一些知识，这里面总结的挺好的。我也在看，后面看完了我再写笔记吧。
