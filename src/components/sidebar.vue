@@ -4,12 +4,6 @@
             <li>
                 <button class="tools-btn" @click="openTheme">切换主题</button>
             </li>
-<!--             <li>
-                <button class="tools-btn" @click="downloadData('notepad.txt',getDate)">下载数据</button>
-            </li>
-            <li>
-                <button class="tools-btn" @click="uploadData()">导入数据</button>
-            </li>-->
             <li>
                 <button class="tools-btn" @click="openTable">编辑数据</button>
             </li> 

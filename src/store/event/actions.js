@@ -1,6 +1,3 @@
-/**
- * Created by linxin on 2017/1/11.
- */
 export default {
     addevent: ({commit}, param) => commit('ADDEVENT', {items: param}),
     eventdone: ({commit}, param) => commit('EVENTDONE', {id: param}),

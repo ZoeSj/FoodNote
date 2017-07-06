@@ -1,6 +1,3 @@
-/**
- * Created by linxin on 2017/1/11.
- */
 import * as func from '../function';
 import actions from './actions.js';
 import mutations from './mutations.js';

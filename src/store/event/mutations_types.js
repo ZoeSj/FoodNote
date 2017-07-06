@@ -1,6 +1,3 @@
-/**
- * Created by linxin on 2017/3/10.
- */
 // 添加事件
 export const ADDEVENT = 'ADDEVENT';
 

@@ -1,6 +1,3 @@
-/**
- * Created by linxin on 2017/3/11.
- */
 const localEvent = function (item) {
     this.get = function () {
         return localStorage.getItem(item) ? JSON.parse(localStorage.getItem(item)) : '';
